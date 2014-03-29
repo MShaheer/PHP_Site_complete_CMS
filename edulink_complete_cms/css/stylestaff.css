@@ -1,0 +1,26 @@
+/* 
+    Document   : stylestaff
+    Created on : Aug 22, 2013, 5:09:13 AM
+    Author     : Dell
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+
+#staffheader{
+    color:black;
+    line-height: normal;
+}
+
+#main { 
+    color:black;
+    font-size:small;
+    font-weight:normal;
+    font-family:helvetica;
+    line-height: normal;
+    
+}

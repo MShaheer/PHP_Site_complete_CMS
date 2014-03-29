@@ -1,0 +1,269 @@
+/* 
+    Document   : styleindex
+    Created on : Aug 22, 2013, 1:15:15 AM
+    Author     : Dell
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/*root { 
+    display: block;
+}*/
+#instruct{
+    display:block;text-align: center;
+    font-family:Helvetica;
+    font-weight:100;
+    
+}
+
+
+
+.contentpara{
+    
+}
+
+#page{
+    line-height: normal;
+    
+}
+#page h1{font-size:x-large;}
+#navigation{
+    border:thin dashed gray;
+    padding:2px;
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0px;
+    padding: 0px;
+    border: 0px none;
+    outline: 0px none;
+    font-size: 100%;
+    vertical-align: baseline;
+    
+}
+
+blockquote{
+  height:50px;
+  width:auto;
+  alignment-adjust: middle;
+  font: 18px/22px italic Times, serif;
+  padding: 20px;
+  background-color:#e4e6e8;
+  border-top: 1px solid #d4d7dc;
+  border-bottom: 1px solid #d4d7dc;
+  margin: 5px;
+  background-image: url(/edulink/images/openquote1.png);
+  background-position: top left;
+  background-repeat: no-repeat;
+  text-indent: 23px;
+  }
+  blockquote span{
+     display: block;
+     background-image: url(/edulink/images/closequote1.png);
+     background-repeat: no-repeat;
+     background-position: bottom right;
+   }
+
+
+#headingbar{
+    margin: 0px;
+    padding: 0px;
+height: 76px;
+background-color:#172322;
+/*background: none repeat scroll 0% 0% rgb(0,0,0);*/
+border-bottom: 2px solid #20a9ce;
+z-index: 99;
+/*position: fixed;*/
+width: 100%;
+/*min-width: 320px;*/
+border-top:thin solid #2d54af;
+/*display:inline-block;*/
+/*border-bottom:*/ 
+/*box-shadow: 0 1px .9px 1px ;*/
+}
+
+#menuu{float:left;
+    text-shadow: none;
+    display: block;
+    line-height: 1;
+    z-index: 100;
+/*    position:absolute;
+    margin-top:80px;*/
+/*float:right;*/
+/*position:absolute;*/
+margin-top:0px;
+  /*margin-left:15%;*/  
+  alignment-adjust:middle; 
+}
+
+#addform{
+    line-height: 2.5;
+    }
+
+   #fieldsetpanel{
+        border :thin solid gray;
+        padding:5px;
+        padding-left: 10px;
+   }
+    
+#panelbar{
+    border:thin dotted darkgrey;
+    color:black;
+    width:auto;
+    height:auto;
+    padding:4px;
+}
+
+#wrapperidbar{
+/*min-width:900px;*/
+max-width:100%;
+display:inline-block;
+    
+}
+
+.wrapper1 {
+    
+    width: 70%;
+    margin: 0px auto;
+    max-width: 960px;
+    line-height:0.2;
+}
+
+#logopic{
+    margin-top:14px;
+    width:65px;
+    height:55px;
+}
+#logo {
+    width: 70px;
+    height: 60px;
+    /*background: url("logo.jpg") no-repeat scroll 0% 0% transparent;*/
+    /*margin-left: 110px;*/
+    float:left;
+    display:inline-block;
+}
+
+#text{
+    color:white;
+    /*outline: 0px none;*/
+    text-shadow:none;
+    font-size: 20px;
+    font-family: fantasy;
+    margin-top:38px;
+    float:left;
+    vertical-align:bottom;
+    font-weight: normal;
+    /*font-weight: bolder;*/
+    line-height: 1;
+     
+}
+
+
+#footer{
+    width:100%;
+    /*margin-left:45%;*/
+        height: 190px;
+    background-color: rgb(82, 82, 82);
+    /*color: rgb(255, 255, 255);*/
+    /*padding: 25.5px;*/
+position:relative;
+bottom:0px;
+    margin: 0px;
+border: 0px none;
+ /*min-width:900px;*/
+/*width:100%;*/ 
+/*display:block;*/
+}
+
+
+#footer span{
+        /*margin-left: 38%;*/
+    font-size: 100%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+text-shadow:1px 1px 1px black;
+     font: 12px/22px tahoma,Geneva,sans-serif;
+    
+}
+
+#footer p{
+    
+        
+      outline: 0px none;border: 0px none;
+font-size: 100%;
+vertical-align: baseline;
+     font: 12px/22px tahoma,Geneva,sans-serif;
+color: rgb(143, 136, 124);
+  
+text-shadow:none;
+    text-align: center;
+}
+
+#credit{ text-align: center;}
+
+body{
+/*    background-image:url('/proq1/images/bg1.jpg');
+   
+    background-image:url('/proq1/images/grey_@2X.png');*/
+    background-size: 100%;
+/*    background-repeat: repeat;
+    text-shadow: 1px 1px 1px rgb(255, 255, 255);
+    font-size: 22px;
+    color: rgb(102, 102, 102);
+    line-height: 1;    
+    font-family: "Droid Sans";
+    font-weight: 400;
+    color: rgb(51, 51, 51);*/
+}
+
+
+.content {
+    width: 100%;
+    margin:10px 0;  
+/*    alignment-baseline: middle;
+    vertical-align:middle;*/
+    }
+    #contentbox{
+        /*height:270px;*/
+         width: 50%;
+        float:left;
+        alignment-adjust:middle;      
+        /*top:80%;*/
+        
+        /*alignment-baseline: middle;*/
+/*        alignment-baseline: middle;
+    vertical-align:middle;*/
+ 
+    }
+    .content h1{
+        color: rgb(34, 34, 34);
+    text-shadow: 1px 1px 1px rgb(255, 255, 255);}
+    
+.content p{
+    color: rgb(102, 102, 102);
+    /*font-size: 12px;*/
+    /*line-height: 2px;*/
+    text-shadow: 1px 1px 1px rgb(255, 255, 255);
+    font: 100 12px/20px 'Open Sans',"Helvetica Neue","HelveticaNeue",Helvetica,Arial,sans-serif;
+}
+
+
+
+a{
+    color: rgb(136, 136, 136);
+    text-decoration: none;
+}
+
+
+.separatorhr{
+border: 0px none;
+height: 1px;
+background-image: -moz-linear-gradient(left center , transparent, rgb(0, 0, 0), transparent);
+background-image: -webkit-linear-gradient(left, rgba(0,0,0, 0), #000, rgba(0,0,0, 0));
+    /*clear: both;*/
+    /*margin: 1.5em 0px;*/
+    opacity: 0.25;
+-moz-box-sizing: content-box;
+color: rgb(102, 102, 102);
+}
+
